@@ -1,0 +1,24 @@
+{
+  "name": "oschina-cli",
+  "version": "1.0.0",
+  "description": "git oschina cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotosbin/oschina-cli.git"
+  },
+  "keywords": [
+    "git",
+    "oschina",
+    "cli"
+  ],
+  "author": "liubinbin <lotosbin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lotosbin/oschina-cli/issues"
+  },
+  "homepage": "https://github.com/lotosbin/oschina-cli#readme"
+}
