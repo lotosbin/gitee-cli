@@ -1,5 +1,6 @@
 # oschina-cli
 git oschina cli
+[![npm version](https://badge.fury.io/js/oschina-cli.svg)](https://badge.fury.io/js/oschina-cli)
 
 # Install
 - from source
