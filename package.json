@@ -4,8 +4,8 @@
   "description": "git oschina cli",
   "main": "index.js",
   "bin": {
-    "osc": "index.js",
-    "oschina": "index.js"
+    "osc": "dist/index.js",
+    "oschina": "dist/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,7 +27,13 @@
   "homepage": "https://github.com/lotosbin/oschina-cli#readme",
   "dependencies": {
     "home-config": "^0.1.0",
+    "inquirer": "^3.2.3",
+    "lodash": "^4.17.4",
     "shelljs": "^0.7.8",
     "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
   }
 }

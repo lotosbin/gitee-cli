@@ -24,3 +24,10 @@ osc clone xxxxxxx
 osc clone xxxxxxx --owner xxxx
 osc clone xxowner/xxrespository
 ```
+
+open repository home page
+```
+osc home
+osc home --remote origin
+osc home --choice
+```
