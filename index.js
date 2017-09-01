@@ -16,11 +16,13 @@ const argv = require('yargs')
     .usage('$0 <cmd> [args]')
     .command("clone [repository]", "clone repository from oschina",
         yargs => yargs.reset()
+            // .default({
+            // })
             .option('owner', {
                 default: cfg.core.username,
                 description: 'specific repository owner'
             })
-            .demand(1, 'need specific [repository]')
+            // .demand('reposiotry', 'need specific [repository]')
             .help("h")
             .alias("h", "help"),
         argv => {

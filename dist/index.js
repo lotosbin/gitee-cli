@@ -14,10 +14,15 @@ function git2http(git) {
 }
 
 var argv = require('yargs').usage('$0 <cmd> [args]').command("clone [repository]", "clone repository from oschina", function (yargs) {
-    return yargs.reset().option('owner', {
+    return yargs.reset()
+    // .default({
+    // })
+    .option('owner', {
         default: cfg.core.username,
         description: 'specific repository owner'
-    }).demand(1, 'need specific [repository]').help("h").alias("h", "help");
+    })
+    // .demand('reposiotry', 'need specific [repository]')
+    .help("h").alias("h", "help");
 }, function (argv) {
     var repository = argv.repository;
     if (repository) if (repository.indexOf('/') > 0) {
