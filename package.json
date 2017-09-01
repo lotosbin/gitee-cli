@@ -8,6 +8,7 @@
     "oschina": "dist/index.js"
   },
   "scripts": {
+    "babel": "babel src --out-dir dist --source-maps --presets env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
