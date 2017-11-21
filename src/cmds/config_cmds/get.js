@@ -4,7 +4,7 @@ exports.command = 'get';
 exports.desc = 'get config';
 exports.builder = yargs => yargs
     .option('username', {description: 'username'})
-    .option('access_token', {description: 'access_token,get from http://git.oschina.net/profile/account'})
+    .option('access_token', {description: 'access_token,get from http://gitee.com/profile/account'})
     .help();
 exports.handler = function (argv) {
     if (argv.username) {
